@@ -1,10 +1,3 @@
-//
-//  XUtilityApp.swift
-//  XUtility
-//
-//  Created by Sergei Saliukov on 27/11/24.
-//
-
 import SwiftUI
 
 @main

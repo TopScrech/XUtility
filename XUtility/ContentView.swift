@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  XUtility
-//
-//  Created by Sergei Saliukov on 27/11/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {

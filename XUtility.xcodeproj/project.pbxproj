@@ -3,28 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		F3A0BB632DCCCA62007B303B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0BB5F2DCCCA62007B303B /* ContentView.swift */; };
+		F3A0BB642DCCCA62007B303B /* XUtilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A0BB612DCCCA62007B303B /* XUtilityApp.swift */; };
+		F3A0BB662DCCCA62007B303B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A0BB5E2DCCCA62007B303B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3146C5A2CF73D4F005D58B3 /* XUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A0BB5E2DCCCA62007B303B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3A0BB5F2DCCCA62007B303B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3A0BB602DCCCA62007B303B /* XUtility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XUtility.entitlements; sourceTree = "<group>"; };
+		F3A0BB612DCCCA62007B303B /* XUtilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XUtilityApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3146C5C2CF73D4F005D58B3 /* XUtility */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = XUtility;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F3146C572CF73D4F005D58B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -32,7 +32,7 @@
 		F3146C512CF73D4F005D58B3 = {
 			isa = PBXGroup;
 			children = (
-				F3146C5C2CF73D4F005D58B3 /* XUtility */,
+				F3A0BB622DCCCA62007B303B /* XUtility */,
 				F3146C5B2CF73D4F005D58B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +43,17 @@
 				F3146C5A2CF73D4F005D58B3 /* XUtility.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A0BB622DCCCA62007B303B /* XUtility */ = {
+			isa = PBXGroup;
+			children = (
+				F3A0BB612DCCCA62007B303B /* XUtilityApp.swift */,
+				F3A0BB602DCCCA62007B303B /* XUtility.entitlements */,
+				F3A0BB5E2DCCCA62007B303B /* Assets.xcassets */,
+				F3A0BB5F2DCCCA62007B303B /* ContentView.swift */,
+			);
+			path = XUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -58,14 +69,7 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F3146C5C2CF73D4F005D58B3 /* XUtility */,
-			);
 			name = XUtility;
-			packageProductDependencies = (
-			);
 			productName = XUtility;
 			productReference = F3146C5A2CF73D4F005D58B3 /* XUtility.app */;
 			productType = "com.apple.product-type.application";
@@ -78,7 +82,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					F3146C592CF73D4F005D58B3 = {
 						CreatedOnToolsVersion = 16.2;
@@ -94,7 +98,7 @@
 			);
 			mainGroup = F3146C512CF73D4F005D58B3;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F3146C5B2CF73D4F005D58B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -107,25 +111,24 @@
 /* Begin PBXResourcesBuildPhase section */
 		F3146C582CF73D4F005D58B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F3A0BB662DCCCA62007B303B /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3146C562CF73D4F005D58B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F3A0BB632DCCCA62007B303B /* ContentView.swift in Sources */,
+				F3A0BB642DCCCA62007B303B /* XUtilityApp.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F3146C672CF73D50005D58B3 /* Debug */ = {
+		F3146C672CF73D50005D58B3 /* Debug configuration for PBXProject "XUtility" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -159,7 +162,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -188,7 +193,7 @@
 			};
 			name = Debug;
 		};
-		F3146C682CF73D50005D58B3 /* Release */ = {
+		F3146C682CF73D50005D58B3 /* Release configuration for PBXProject "XUtility" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +227,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -243,7 +250,7 @@
 			};
 			name = Release;
 		};
-		F3146C6A2CF73D50005D58B3 /* Debug */ = {
+		F3146C6A2CF73D50005D58B3 /* Debug configuration for PBXNativeTarget "XUtility" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -251,17 +258,19 @@
 				CODE_SIGN_ENTITLEMENTS = XUtility/XUtility.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"XUtility/Preview Content\"";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XUtility;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.XUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +279,7 @@
 			};
 			name = Debug;
 		};
-		F3146C6B2CF73D50005D58B3 /* Release */ = {
+		F3146C6B2CF73D50005D58B3 /* Release configuration for PBXNativeTarget "XUtility" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,17 +287,19 @@
 				CODE_SIGN_ENTITLEMENTS = XUtility/XUtility.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"XUtility/Preview Content\"";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XUtility;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.XUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,19 +314,17 @@
 		F3146C552CF73D4F005D58B3 /* Build configuration list for PBXProject "XUtility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3146C672CF73D50005D58B3 /* Debug */,
-				F3146C682CF73D50005D58B3 /* Release */,
+				F3146C672CF73D50005D58B3 /* Debug configuration for PBXProject "XUtility" */,
+				F3146C682CF73D50005D58B3 /* Release configuration for PBXProject "XUtility" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F3146C692CF73D50005D58B3 /* Build configuration list for PBXNativeTarget "XUtility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3146C6A2CF73D50005D58B3 /* Debug */,
-				F3146C6B2CF73D50005D58B3 /* Release */,
+				F3146C6A2CF73D50005D58B3 /* Debug configuration for PBXNativeTarget "XUtility" */,
+				F3146C6B2CF73D50005D58B3 /* Release configuration for PBXNativeTarget "XUtility" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
